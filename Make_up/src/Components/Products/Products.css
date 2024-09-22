@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+main.container {
+    width: 95%;
+    margin: auto;
+}
+
+main section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin : 5rem 0 3rem 0;
+    transform: translateY(1rem);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+main h1 {
+    font-size : 2.5rem ;
+    font-weight : 300
+}
+
+.product-item {
+    padding: 0.5rem;
+    width: 15rem;
+    height: 30rem;
+    font-family: 'Poppins',sans-serif;
+    position: relative; 
+    overflow: hidden;
+}
+.product-item img {
+    filter: drop-shadow(0px 0px 1px #8f8c8c);
+    border-radius: 0.75rem;
+}
+
+
+.shop-fav {
+    position: absolute;
+    top: 1.5rem;
+    right: -1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    background-color: #b4b0b0c9;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    z-index: 5;
+}
+
+.product-item:hover .shop-fav{
+    transform: translateX(-2.5rem);
+
+}
+
+.shop-fav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop-fav ul li {
+    margin-top: 1rem;
+}
+.shop-fav ul li svg {
+    font-size: 1.2rem;
+    color: #282727d9;
+    transition: color 0.2s ease-out;
+    cursor: pointer;
+}
+.shop-fav ul li svg:hover {
+    color: black;
+}
+
+
+.product-item-content{
+    margin-top: 1.25rem;
+    padding: 0 .5rem;
+}
+.product-item-content h3{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.product-item-content p {
+    font-size:0.9rem;
+    font-weight: 500;
+    color: #636363;
+}
+
+.product-item-content ul {
+    display: flex;
+    padding: 0.75rem 0;
+}
+
+.product-item-content li {
+    margin-right: 0.3rem;
+}
+.product-item-content svg {
+    color: #a4af76;
+}
+.item-stars {
+    position: absolute;
+    bottom: 1rem;
+}
+.item-stars svg {
+    font-size: 0.80rem
+}
+section.active {
+    opacity: 1;
+    transform : translateX(0);
+
+}
+
+
+.animated {
+    animation: animated 1s ease-out 1;
+}
+.shop-fav ul .animated svg{
+    color:#51755e;
+}
+
+
+@keyframes animated {
+    from {
+        transform: rotate(0turn);
+
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}

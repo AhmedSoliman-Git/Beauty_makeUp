@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+section { 
+    font-family:"Playwrite CU", sans-serif;
+}
+section.active {
+    opacity: 1;
+    transform : translateX(0);
+
+}
+

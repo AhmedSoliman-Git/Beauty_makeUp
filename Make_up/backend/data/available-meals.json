@@ -1,0 +1,111 @@
+[
+  {
+    "id": "m1",
+    "name": "Bio-shroom Rejuventaing Serum",
+    "price": "28.99",
+    "stars": [1,1,1],
+    "offer" : true ,
+    "image": "photos/product-01.jpg"
+  },
+  {
+    "id": "m2",
+    "name": "Coffee Bean Eye Cream",
+    "price": "18.99",
+    "stars": [1,1,1,1],
+    "offer" : true ,
+    "image": "photos/product-02.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "Facial Cleaner",
+    "price": "82.99",
+    "stars": [1,1],
+    "image": "photos/product-03.jpg",
+    "offer" : true
+
+  },
+  {
+    "id": "m4",
+    "name": "I_linar",
+    "price": "110.99",
+    "stars": [1,1],
+    "image": "photos/product-04.jpg",
+    "offer" : false
+
+  },
+  {
+    "id": "m5",
+    "name": "Facial Cleaner",
+    "price": "130.99",
+    "stars": [1],
+    "image": "photos/product-05.jpg",
+    "offer" : false
+
+  },
+  {
+    "id": "m6",
+    "name": "Facial Cleaner",
+    "price": "1.99",
+    "stars": [1,1],
+    "image": "photos/product-06.jpg",
+    "offer" : true 
+
+  },
+  {
+    "id": "m7",
+    "name": "Bio-shroom Rejuventaing Serum",
+    "price": "17.99",
+    "stars": [1,1,1,1,1],
+    "image": "photos/product-07.jpg",
+    "offer" : false 
+  },
+  {
+    "id": "m8",
+    "name": "Bio-shroom Serum",
+    "price": "7.99",
+    "stars": [1,1,1],
+    "image": "photos/product-08.jpg",
+    "offer" : true 
+  },
+  {
+    "id" : "m9",
+    "name": "Bio-shroom Serum",
+    "price": "78.99",
+    "stars": [1,1,1,1],
+    "image": "photos/product-09.jpg",
+    "offer" : true 
+  },
+  {
+    "id" : "m10",
+    "name": "Bios",
+    "price": "17.99",
+    "stars": [1,1],
+    "image": "photos/product-10.jpg",
+    "offer" : false 
+  },
+  {
+    "id": "m11",
+    "name": "Biosv serum alkoiu",
+    "price": "18.99",
+    "stars": [1,1,1,1],
+    "image": "photos/product-11.jpg",
+    "offer" : true 
+  },
+
+  {
+    "id": "m15",
+    "name": "Glowing serum",
+    "price": "47.99",
+    "stars": [1,1],
+    "image": "photos/product-15.jpg",
+    "offer" : false 
+  },
+  {
+    "id": "m16",
+    "name": "oil mink Bird",
+    "price": "17.99",
+    "stars": [1,1,1],
+    "image": "photos/product-16.jpg",
+    "offer" : false 
+  }
+]
